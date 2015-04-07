@@ -11,7 +11,7 @@ import java.sql.*;
 
 /**
  *
- * @author pete
+ * @author Peter J De Sousa
  */
 public class FindPrimes 
 {
@@ -29,8 +29,7 @@ public class FindPrimes
         // TODO code application logic here
             
             FindPrimeGUI appGUI = new FindPrimeGUI();
-            
-            
+           
       
         }
   

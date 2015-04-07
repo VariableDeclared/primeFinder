@@ -9,8 +9,10 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 //import java.sql.*;
 /**
- *
- * @author pete
+ * 
+ * @author Peter J De Sousa
+ * @version 1.4
+ * 
  */
 public class FindPrimeGUI extends JFrame implements ActionListener, PrimeFinderListener {
     JButton startButton, stopButton;
