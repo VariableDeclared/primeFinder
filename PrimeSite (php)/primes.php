@@ -1,6 +1,13 @@
 <?PHP
-	
-	function generateTable($trClass, $tdClass, $tableID = "", $numTR=5, $numTC=5)
+	/****************************************
+	* Author: Peter J De Sousa
+	*	petedes@live.com
+	*
+	*	mini project.
+	*		prime finder backend
+	*
+	*******************************************/
+		function generateTable($trClass, $tdClass, $tableID = "", $numTR=5, $numTC=5)
 	{
 		$table = "<table>";
 		for($rows = 0; $rows < $numTR; $rows++)
