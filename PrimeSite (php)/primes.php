@@ -7,14 +7,14 @@
 	*		prime finder backend
 	*
 	*******************************************/
-		function generateTable($trClass, $tdClass, $tableID = "", $numTR=5, $numTC=5)
+	function generateTable($trClass, $tdClass, $tableID = "", $numTR=5, $numTC=5)
 	{
 		$table = "<table>";
 		for($rows = 0; $rows < $numTR; $rows++)
 		{
-			$table .= "<tr>";
+			$table .= "<tr class='$trClass'>";
 			for($cols = 0; $cols < $numTC; $cols++)
-				$table .= "<td></td>";
+				$table .= "<td class='$tdClass'></td>";
 			$table .= "</tr>";
 		}
 		return $table;
